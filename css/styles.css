@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body {
+    margin: 0;
+
+    font-family: "Source Sans Pro", sans-serif;
+
+    background-color: lightblue;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+
+    margin-bottom: 15px;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center
+}
+
+section{
+  width: 90%;
+  margin: 0 auto;
+}
+
+section h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.poemas{
+  display: flex;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.nombre{}
+.autor{
+  font-style: italic;
+  color: #ccc;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+.poema{
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+.poema p{
+  font-size: 15px;
+  line-height: 18px;
+}
+.poema a{
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 10px 0;
+  text-decoration: none;
+  background-color: #ccc;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 12px;
+}
